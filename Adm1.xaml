@@ -1,0 +1,130 @@
+﻿<Page x:Name="Adm2" x:Class="ProtecPass.Adm1"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:ProtecPass"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="380"
+      Title="Adm1" HorizontalAlignment="Stretch"
+      
+      >
+
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition Height="14*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+
+            <ColumnDefinition Width="380"/>
+            <ColumnDefinition Width="0"/>
+
+        </Grid.ColumnDefinitions>
+        <Border CornerRadius="10" Grid.ColumnSpan="2" Margin="0,15,-375,-5" Background="#FFF23232" Grid.RowSpan="2">
+
+        </Border>
+        <StackPanel Margin="0,5,0,0" Grid.Row="1">
+            <Canvas>
+                <Label Content="List Login" Canvas.Left="70" Canvas.Top="20" Height="40" Width="125" FontSize="22" Foreground="White" FontStyle="Italic" FontWeight="Bold"/>
+            </Canvas>
+            <Canvas>
+                <TextBlock Text="Record
+"
+                           FontWeight="Bold"
+                           FontFamily="Helvetica"
+                           FontSize="22"
+                          Foreground="White" Canvas.Left="80" Canvas.Top="80"/>
+
+
+
+
+            </Canvas>
+            <Canvas>
+
+                <TextBlock
+                           FontWeight="Normal"
+                           FontFamily="Arial Black"
+                           FontSize="18"
+                          Foreground="White" Canvas.Left="13" Canvas.Top="135" IsEnabled="False" Background="#FFF23232" Height="31" Width="103" FontStyle="Italic"><Run Text="airton12"/><Run Text="/"/><Run Language="pt-br" Text="/"/></TextBlock>
+                <TextBlock Text="Safeweb"
+                           FontWeight="Normal"
+                           FontFamily="Arial Black"
+                           FontSize="18"
+                          Foreground="White" Canvas.Left="107" Canvas.Top="134" IsEnabled="False" Background="#FFF23232" Height="31" Width="103" FontStyle="Italic"/>
+                <Image Source="/z.png" Canvas.Left="223" Canvas.Top="-120" Height="320" Width="100">
+
+
+                </Image>
+                <Image Source="/account-check (1).png" Canvas.Left="222" Canvas.Top="135" Height="24" Width="26" RenderTransformOrigin="1.167,0">
+
+                </Image>
+                <Border Width="212"
+                            Height="1"
+                            Background="White"
+                            Opacity="5" Canvas.Left="13" Canvas.Top="162"/>
+
+
+
+            </Canvas>
+            <Canvas>
+                <TextBlock
+                           FontWeight="Normal"
+                           FontFamily="Arial Black"
+                           FontSize="18"
+                          Foreground="White" Canvas.Left="10" Canvas.Top="293" IsEnabled="False" Background="#FFF23232" Height="32" Width="123" FontStyle="Italic"><Run Text="Giovanni21/"/><Run Language="pt-br" Text="/"/></TextBlock>
+                <Image Source="/account-check (2).png" Canvas.Left="222" Canvas.Top="289" Height="24" Width="30">
+
+
+
+                </Image>
+                <Border Width="227"
+                            Height="1"
+                            Background="White"
+                            Opacity="5" Canvas.Left="10" Canvas.Top="313"/>
+                <TextBlock Text="Safeweb"
+                           FontWeight="Normal"
+                           FontFamily="Arial Black"
+                           FontSize="18"
+                          Foreground="White" Canvas.Left="132" Canvas.Top="292" IsEnabled="False" Background="#FFF23232" Height="19" Width="93" FontStyle="Italic"/>
+
+            </Canvas>
+            <Canvas Height="100" Width="105">
+                <TextBlock
+                           FontWeight="Normal"
+                           FontFamily="Arial Black"
+                           FontSize="18"
+                          Foreground="White" Canvas.Top="335" IsEnabled="False" Background="#FFF23232" Height="32" Width="123" FontStyle="Italic" Canvas.Left="-122"><Run Text="Rafael33/"/><Run Language="pt-br" Text="/"/></TextBlock>
+                <TextBlock Text="Safeweb"
+                           FontWeight="Normal"
+                           FontFamily="Arial Black"
+                           FontSize="18"
+                          Foreground="White" Canvas.Left="-22" Canvas.Top="335" IsEnabled="False" Background="#FFF23232" Height="19" Width="92" FontStyle="Italic"/>
+
+                <Border Width="230"
+                            Height="1"
+                            Background="White"
+                            Opacity="5" Canvas.Top="356" Canvas.Left="-122"/>
+                <Image Source="/account-check (3).png" Canvas.Left="84" Canvas.Top="330" Height="34" Width="24" RenderTransformOrigin="0.354,1.118">
+
+                </Image>
+                <Label Height="50" Width="227" Canvas.Left="-119" Canvas.Top="225" Content="Possible new registrations" Foreground="White" FontStyle="Italic" FontSize="18" FontFamily="Arial">
+
+                </Label>
+
+            </Canvas>
+
+
+
+
+
+
+
+
+
+        </StackPanel>
+
+
+    </Grid>
+</Page>

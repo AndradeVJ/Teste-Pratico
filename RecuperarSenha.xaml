@@ -1,0 +1,118 @@
+﻿<Window x:Class="ProtecPass.RecuperarSenha"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ProtecPass"
+        mc:Ignorable="d"
+        Title="RecuperarSenha" Height="450" Width="800"
+ 
+        AllowsTransparency="True" Background="Transparent"
+        WindowStyle="None" ResizeMode="NoResize"
+        MouseDown="Window_MouseDown">
+    <Grid>
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="125"/>
+            <ColumnDefinition Width="Auto" MinWidth="107"/>
+            <ColumnDefinition Width="148"/>
+        </Grid.ColumnDefinitions>
+
+        <Border CornerRadius="10" Grid.ColumnSpan="3" Margin="0,0,-420,0">
+            <Border.Background>
+                <LinearGradientBrush>
+                    <GradientStop Color="#AACD1C1C" />
+                </LinearGradientBrush>
+
+            </Border.Background>
+            <StackPanel>
+                <TextBox x:Name="txtsenha_antiga"
+                             FontWeight="Light"
+                           FontFamily="Helvetica"
+                           FontSize="15"
+                          Foreground="White"
+                             Background="#FF921C1C"
+                             Width="118"
+                             Height="50"
+                             Opacity="0.7" RenderTransformOrigin="0.353,0.4" HorizontalAlignment="Center" Margin="0,100,61,0" BorderBrush="#FF921C1C" HorizontalContentAlignment="Stretch" VerticalContentAlignment="Stretch"
+                             />
+
+                <Border Width="180"
+                            Height="1"
+                            Background="White"
+                            Opacity="5"
+                           HorizontalAlignment="Center"/>
+                <TextBox x:Name="txtsenha_nova"
+                             FontWeight="Light"
+                           FontFamily="Helvetica"
+                           FontSize="15"
+                          Foreground="White"
+                             Background="#FF921C1C"
+                             Width="118"
+                             Height="50"
+                             Opacity="0.7" RenderTransformOrigin="0.353,0.4" HorizontalAlignment="Center" Margin="0,100,61,0" BorderBrush="#FF921C1C" HorizontalContentAlignment="Stretch" VerticalContentAlignment="Stretch"
+                             />
+
+                <Border Width="180"
+                            Height="1"
+                            Background="White"
+                            Opacity="5"
+                 HorizontalAlignment="Center"/>
+
+
+
+
+
+                <Canvas>
+                    <Button Width="100" Height="40" Content="Alterar"
+                                    Background="{x:Null}" Canvas.Left="345" Canvas.Top="43" FontWeight="Bold" FontStyle="Italic" Foreground="White" FontSize="16" BorderBrush="#FF9C2121" Click="Button_Click"/>
+
+                </Canvas>
+                <Canvas>
+                    <Button Content="X" Canvas.Left="785" Canvas.Top="-302" FontSize="16" BorderBrush="#FF921C1C" Background="#FF921C1C" Foreground="White" Click="Button_Click_1"/>
+
+
+
+
+
+                </Canvas>
+
+
+
+
+
+            </StackPanel>
+
+
+        </Border>
+        <Canvas>
+            <Label Content="Old Password" Canvas.Left="220" Canvas.Top="35" Height="35" Width="260" FontSize="22" Foreground="White" FontStyle="Italic"/>
+        </Canvas>
+        <Canvas>
+            <Label Content="New Password"  Canvas.Left="215" Canvas.Top="220" Height="35" Width="260" FontSize="22" Foreground="White" FontStyle="Italic" FontFamily="Helvetica"/>
+
+        </Canvas>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </Grid>
+</Window>

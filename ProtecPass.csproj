@@ -1,0 +1,50 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net5.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="63b53157ad739530447eb4f54654ca26.png" />
+    <None Remove="account %281%29.png" />
+    <None Remove="account-check %281%29.png" />
+    <None Remove="account-check %282%29.png" />
+    <None Remove="account-check %283%29.png" />
+    <None Remove="account-key.png" />
+    <None Remove="istockphoto-1135341047-170667a.jpg" />
+    <None Remove="istockphoto-470004880-612x612.jpg" />
+    <None Remove="the-mandalorian-star-wars-silhouette.jpg" />
+    <None Remove="z.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="63b53157ad739530447eb4f54654ca26.png" />
+    <Resource Include="account (1).png" />
+    <Resource Include="account-check (1).png" />
+    <Resource Include="account-check (2).png" />
+    <Resource Include="account-check (3).png" />
+    <Resource Include="account-key.png" />
+    <Resource Include="istockphoto-1135341047-170667a.jpg" />
+    <Resource Include="istockphoto-470004880-612x612.jpg" />
+    <Resource Include="the-mandalorian-star-wars-silhouette.jpg" />
+    <Resource Include="z.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="Properties\Settings.Designer.cs">
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+
+</Project>
